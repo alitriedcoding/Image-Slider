@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+img {
+  width: 300px;
+  height: 400px;
+}
+.imag-container {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+
+  /* this is for next image */
+  /* transform: translateX(-300px); */
+}
+
+.btn-forward {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  right: 0;
+}
+.btn-back {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+}
